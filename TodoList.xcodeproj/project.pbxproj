@@ -16,6 +16,7 @@
 		D52E8AD5293995A000D7C40A /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E8AD4293995A000D7C40A /* TodoListTests.swift */; };
 		D52E8ADF293995A000D7C40A /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E8ADE293995A000D7C40A /* TodoListUITests.swift */; };
 		D52E8AE1293995A000D7C40A /* TodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E8AE0293995A000D7C40A /* TodoListUITestsLaunchTests.swift */; };
+		D52E8AEE29399A4A00D7C40A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52E8AED29399A4A00D7C40A /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D52E8ADA293995A000D7C40A /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52E8ADE293995A000D7C40A /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		D52E8AE0293995A000D7C40A /* TodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D52E8AED29399A4A00D7C40A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D52E8AC6293995A000D7C40A /* Assets.xcassets */,
 				D52E8AC8293995A000D7C40A /* LaunchScreen.storyboard */,
 				D52E8ACB293995A000D7C40A /* Info.plist */,
+				D52E8AED29399A4A00D7C40A /* Task.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52E8AEE29399A4A00D7C40A /* Task.swift in Sources */,
 				D52E8AC22939959F00D7C40A /* ViewController.swift in Sources */,
 				D52E8ABE2939959F00D7C40A /* AppDelegate.swift in Sources */,
 				D52E8AC02939959F00D7C40A /* SceneDelegate.swift in Sources */,
